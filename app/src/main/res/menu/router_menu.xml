@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_wifi" android:title="@string/change_wifi" app:showAsAction="never" />
+    <item android:id="@+id/action_optimize" android:title="@string/optimize" app:showAsAction="never" />
+    <item android:id="@+id/action_blocked" android:title="@string/blocked_devices" app:showAsAction="never" />
+    <item android:id="@+id/action_monitor" android:checkable="true" android:title="@string/monitor_alerts" app:showAsAction="never" />
+    <item android:id="@+id/action_autoblock" android:checkable="true" android:title="@string/autoblock_pro" app:showAsAction="never" />
+    <item android:id="@+id/action_reboot" android:title="@string/reboot_pro" app:showAsAction="never" />
+    <item android:id="@+id/action_web" android:title="@string/open_openwrt" app:showAsAction="never" />
+    <item android:id="@+id/action_logout" android:title="@string/logout" app:showAsAction="never" />
+</menu>
