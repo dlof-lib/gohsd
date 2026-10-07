@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GOHSD</string>
+
+    <!-- الويب -->
+    <string name="error_title">لا يوجد اتصال</string>
+    <string name="error_message">تعذر تحميل الصفحة. سيُعاد التحميل تلقائياً عند عودة الإنترنت.</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="home">الرئيسية</string>
+    <string name="forward">للأمام</string>
+    <string name="refresh">تحديث</string>
+    <string name="share">مشاركة الرابط</string>
+    <string name="copy_link">نسخ الرابط</string>
+    <string name="open_in_browser">فتح في المتصفح</string>
+    <string name="clear_cache">مسح الذاكرة المؤقتة</string>
+    <string name="link_copied">تم نسخ الرابط</string>
+    <string name="cache_cleared">تم مسح الذاكرة المؤقتة</string>
+    <string name="press_again_to_exit">اضغط مرة أخرى للخروج</string>
+    <string name="no_app_found">لا يوجد تطبيق لفتح هذا الرابط</string>
+    <string name="download_started">بدأ التنزيل</string>
+    <string name="download_unsupported">هذا النوع من التنزيل غير مدعوم</string>
+    <string name="storage_denied">مطلوب إذن التخزين للتنزيل</string>
+
+    <!-- الراوتر -->
+    <string name="login_title">لوحة إدارة الشبكة</string>
+    <string name="login_hint">للراوترات التي تعمل بنظام OpenWrt (مفتوح المصدر). يجب أن يكون هاتفك متصلاً بالشبكة، وتستخدم حساب مدير الراوتر الخاص بك.</string>
+    <string name="router_address">عنوان الراوتر</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة السر</string>
+    <string name="connect">اتصال</string>
+    <string name="vlink_hint">راوتر V-Link أو أي راوتر غير OpenWrt: افتح لوحته داخل التطبيق (اسم المستخدم الافتراضي admin).</string>
+    <string name="vlink_1">V-Link EWR-F303</string>
+    <string name="vlink_2">V-Link VLR-1505n</string>
+    <string name="vlink_diag">تشخيص V-Link (لتفعيل الدعم الكامل)</string>
+    <string name="diag_share_title">شارك تقرير التشخيص</string>
+    <string name="open_web_panel">فتح لوحة الراوتر (ويب)</string>
+    <string name="fill_fields">أدخل العنوان وكلمة السر</string>
+    <string name="login_failed">فشل الاتصال: %1$s</string>
+    <string name="connection_lost">انقطع الاتصال بالراوتر…</string>
+    <string name="network_name">الشبكة: %1$s</string>
+    <string name="subscribers_count">المشتركون المتصلون: %1$d</string>
+    <string name="total_speed">الاستهلاك الحالي  ↓ %1$s   ↑ %2$s</string>
+    <string name="speed_fmt">↓ %1$s   ↑ %2$s</string>
+    <string name="unknown_device">جهاز غير معروف</string>
+    <string name="untrusted_fmt">%1$s  • غير معتمد</string>
+    <string name="action_failed">فشل التنفيذ: %1$s</string>
+
+    <string name="change_wifi">تغيير اسم الشبكة وكلمة السر</string>
+    <string name="wifi_dialog_hint">اترك الحقل فارغاً لإبقائه كما هو. سينقطع اتصال الأجهزة لثوانٍ وستحتاج لإعادة الاتصال بالبيانات الجديدة.</string>
+    <string name="new_ssid">اسم الشبكة الجديد</string>
+    <string name="new_key">كلمة السر الجديدة (8-63 حرفاً)</string>
+    <string name="save">حفظ</string>
+    <string name="ssid_invalid">اسم الشبكة أطول من 32 حرفاً</string>
+    <string name="key_invalid">كلمة السر يجب أن تكون بين 8 و63 حرفاً</string>
+    <string name="wifi_updated">تم تحديث الشبكة</string>
+
+    <string name="optimize">تحسين وتقوية الشبكة</string>
+    <string name="optimize_msg">سيتم اختيار أفضل قناة واي فاي تلقائياً وإزالة أي تحديد لقدرة الإرسال ثم إعادة تشغيل الواي فاي. هذا يحسّن الإشارة والاستقرار، ولا يزيد سرعة باقة مزود الخدمة.</string>
+    <string name="optimized_ok">تم تحسين الشبكة</string>
+
+    <string name="blocked_devices">الأجهزة المحظورة</string>
+    <string name="no_blocked">لا توجد أجهزة محظورة</string>
+    <string name="act_block">حظر الجهاز</string>
+    <string name="act_kick">طرد مؤقت</string>
+    <string name="act_rename">تسمية الجهاز</string>
+    <string name="act_trust">اعتماد الجهاز</string>
+    <string name="blocked_ok">تم حظر الجهاز</string>
+    <string name="unblocked_ok">تم إلغاء الحظر</string>
+    <string name="kicked_ok">تم طرد الجهاز</string>
+    <string name="trusted_ok">تم اعتماد الجهاز</string>
+
+    <string name="monitor_alerts">تنبيهات الأجهزة الجديدة</string>
+    <string name="autoblock_pro">حظر تلقائي للأجهزة الجديدة</string>
+    <string name="reboot_pro">إعادة تشغيل الراوتر</string>
+    <string name="reboot">إعادة التشغيل</string>
+    <string name="reboot_msg">سيُعاد تشغيل الراوتر وينقطع الإنترنت لدقائق.</string>
+    <string name="reboot_sent">تم إرسال أمر إعادة التشغيل</string>
+    <string name="open_openwrt">موقع OpenWrt (مفتوح المصدر)</string>
+    <string name="logout">تسجيل الخروج</string>
+
+    <string name="ch_alerts">تنبيهات الأجهزة</string>
+    <string name="ch_monitor">المراقبة</string>
+    <string name="monitor_running">مراقبة الشبكة تعمل</string>
+    <string name="alert_new_title">جهاز جديد على شبكتك</string>
+    <string name="alert_blocked_title">تم حظر جهاز جديد تلقائياً</string>
+    <string name="alert_body">%1$s (%2$s)</string>
+    <string name="alert_body_long">اتصل الجهاز %1$s (%2$s) بشبكتك ولم يكن معتمداً. قد يكون أحد المشتركين شاركه كلمة السر.</string>
+</resources>
